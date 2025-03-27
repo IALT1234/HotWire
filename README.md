@@ -25,7 +25,7 @@ Data Handling: Real-time graph generation, state indicators
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Technologies Used:
+<b>Technologies Used:
 
 Frontend: HTML, CSS, JavaScript
 
