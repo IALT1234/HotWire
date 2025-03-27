@@ -59,7 +59,7 @@ Main Page: <br/>
 <img src="https://github.com/IALT1234/Probe-Testing-Page/blob/main/Main%20Page.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Graph and Data Analytics: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/IALT1234/Probe-Testing-Page/blob/main/Data%20Collection%20and%20analitycs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 2. Backend (app.py)
