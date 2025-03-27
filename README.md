@@ -34,5 +34,4 @@ Backend: Python (Server Response Handling)
 Data Handling: Real-time graph generation, state indicators</b>
 
 <h2>Environments Used </h2>
-
-- <b>Web Browser (Frontend Testing), Local Server (Python Backend)</b> 
+<b>Web Browser (Frontend Testing), Local Server (Python Backend)</b> 
