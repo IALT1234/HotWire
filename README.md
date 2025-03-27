@@ -56,7 +56,7 @@ State Indicators & Data Persistence:
 UI elements show the status of the airflow measurements, ensuring that users can track the state of the test.
 
 Main Page: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/IALT1234/Probe-Testing-Page/blob/main/Main%20Page.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Graph and Data Analytics: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
