@@ -6,6 +6,41 @@ This platform supports real-time flow measurement in metal 3D-printing chambers 
 
 Note: Only selected non-proprietary images from my personal contributions are included for demonstration. The full system and hardware integration remain property of the research center.
 
+## Interface Screenshots
+
+### Main Interface
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="main_test.png" alt="Main interface showing control panel" width="400"/>
+<br>
+<em>Primary control interface for motor control and data acquisition</em>
+</td>
+<td width="50%" align="center">
+<img src="main_test2.png" alt="Extended view of main interface" width="400"/>
+<br>
+<em>Additional controls and real-time monitoring features</em>
+</td>
+</tr>
+</table>
+
+
+### Data Visualization
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="graph_comparison.png" alt="Data analysis and comparison view" width="400"/>
+<br>
+<em>Interactive graph interface for comparing flow measurements</em>
+</td>
+<td width="50%" align="center">
+<img src="database.png" alt="Database management interface" width="400"/>
+<br>
+<em>Data collection and storage management dashboard</em>
+</td>
+</tr>
+</table>
+
 ## Features:
 - Flask-driven backend for coordinated sensor control and experiment execution
 - Motor jog interface with adjustable pulse-based movements and positional feedback
