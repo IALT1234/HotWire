@@ -78,34 +78,29 @@ It was designed to:
 
 # My contributions focused on:
 
--Developing data collection routes (Flas, SQL)
--Motor control logic (Python)
--Data processing (Python)
--Database management and interfacing (HTML, SQL)
--Static and real time data visualization (JavaScript)
--CSV-based data processing and organization (Python)
+- Developing data collection routes (Flas, SQL)
+- Motor control logic (Python, GPIO)
+- Data processing (Python, NumPy, Pandas)
+- Database management and interfacing (HTML, SQL)
+- Static and real time data visualization (JavaScript)
+- CSV-based data processing and organization (Python)
 
 # Research Impact
 
 This software enabled:
 
--Consistent data collection across multiple LPBF systems.
+- Consistent data collection across multiple LPBF systems.
 
--Visualization of gas flow distributions via dual-probe hot-wire sensors.
+- Visualization of gas flow distributions via dual-probe hot-wire sensors.
 
--Scalable experiment logging for parameter optimization.
+- Scalable experiment logging for parameter optimization.
 
--The resulting workflows were used in ongoing LPBF chamber optimization and validation studies.
+- The resulting workflows were used in ongoing LPBF chamber optimization and validation studies.
 
 
 # Notes
 
--Features shown here represent my authored components only for portfolio use.
--Modules, datasets, and configurations are withheld under institutional research agreements.
--The full project integrates with embedded controllers and a distributed data pipeline.
+- Features shown here represent my authored components only for portfolio use.
+- Modules, datasets, and configurations are withheld under institutional research agreements.
+- The full project integrates with embedded controllers and a distributed data pipeline.
 
-#Notes
-
--Features shown here represent my authored components only for portfolio use.
--Modules, datasets, and configurations are withheld under institutional research agreements.
--The full project integrates with embedded controllers and a distributed data pipeline.
