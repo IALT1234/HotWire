@@ -11,15 +11,20 @@ Note: Only selected non-proprietary images from my personal contributions are in
 ### Main Interface
 <table>
 <tr>
-<td width="50%" align="center">
-<img src="main_test.png" alt="Main interface showing control panel" width="400"/>
+<td width="33%" align="center">
+<img src="test_options.png" alt="Main interface showing control panel" width="300"/>
 <br>
 <em>Primary control interface for motor control and data acquisition</em>
 </td>
-<td width="50%" align="center">
-<img src="main_test2.png" alt="Extended view of main interface" width="400"/>
+<td width="33%" align="center">
+<img src="main_test.png" alt="Main interface showing control panel" width="300"/>
 <br>
-<em>Additional controls and real-time monitoring features</em>
+<em>Real-time monitoring and data visualization</em>
+</td>
+<td width="33%" align="center">
+<img src="main_test2.png" alt="Extended view of main interface" width="300"/>
+<br>
+<em>Additional controls and graphs</em>
 </td>
 </tr>
 </table>
