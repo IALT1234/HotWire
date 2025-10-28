@@ -1,84 +1,71 @@
-<h1>Web-Based Motor Control & Data Analysis</h1>
+<h1>HotWire Web-Based Motor Control (Research Collaboration)</h1>
 
 <h2>Description</h2>
-A web application designed to control and test motors used for measuring airflow in an EOS 3D printer. The platform also enables real-time data visualization, analysis, and download functionality for test results.
+A Flask-based data acquisition and visualization system developed in collaboration with the W.M. Keck Center for 3D Innovation.
+This platform supports real-time flow measurement in metal 3D-printing chambers through a custom Python backend for motor control, sensor acquisition, and automated data processing.
 
-Features:
-Motor Control & Testing: Interface for controlling and testing airflow measurement probes.
+Note: Only selected non-proprietary images from my personal contributions are included for demonstration. The full system and hardware integration remain property of the research center.
 
-Real-Time Graph Generation: Displays sensor data dynamically.
+## Features:
+- Flask-driven backend for coordinated sensor control and experiment execution
+- Motor jog interface with adjustable pulse-based movements and positional feedback
+- Real-Time Graph Generation: Displays sensor data dynamically
+- Automated test runner for sequential probe scans, voltage sampling, and velocity calculation
+- Structured database layer (SQLite) for persistent storage of voltage, velocity, and positional data
+- CSV generation pipeline for exporting raw and processed datasets with constant tracking
+- Dynamic front-end dashboard displaying live velocity and position charts via Chart.js and Flask templating
 
-Data Persistence & State Indicators: Ensures accurate tracking of test conditions.
+## Project Context
+This software formed part of a gas-flow characterization project used to study fluid behavior inside Laser Powder Bed Fusion (LPBF) systems.
+It was designed to:
 
-Data Analysis & Export: Users can visualize and download test results for further study.
+-Automate hot-wire anemometry tests.
 
-UI/UX Enhancements: Redesigned interface for improved user experience.
+-Log sensor and positional data for chamber mapping.
 
-Technologies Used:
-Frontend: HTML, CSS, JavaScript
-
-Backend: Python (Server Response Handling)
-
-Data Handling: Real-time graph generation, state indicators
-<br />
+-Provide a web-based interface for experiment visualization and replay.
 
 
-<h2>Languages and Utilities Used</h2>
+# Technologies
 
-<b>Technologies Used:
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Python (Server Response Handling)
-
-Data Handling: Real-time graph generation, state indicators</b>
-
-<h2>Environments Used </h2>
-<b>Web Browser (Frontend Testing), Local Server (Python Backend)</b> 
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Walkthrough of Functionality
-
-  
-1. Frontend (main.html & data_collection.html)
+- Flask
+- SQLite3 / Pandas
+- Chart.js + JavaScript
+- NumPy / statistics
+- HTML / Jinja
 
 
 
-User Interface:
+# My contributions focused on:
 
-- main.html serves as the main UI for controlling the motor and starting the data collection.
+-Developing data collection routes (Flas, SQL)
+-Motor control logic (Python)
+-Data processing (Python)
+-Database management and interfacing (HTML, SQL)
+-Static and real time data visualization (JavaScript)
+-CSV-based data processing and organization (Python)
 
-- data_collection.html is responsible for displaying real-time airflow measurement data in graphical form.
+# Research Impact
 
-Real-Time Graph Generation:
+This software enabled:
 
-- JavaScript is used to fetch live sensor data and plot it dynamically using a graphing library (likely Chart.js or similar).
+-Consistent data collection across multiple LPBF systems.
 
-- State Indicators & Data Persistence:
+-Visualization of gas flow distributions via dual-probe hot-wire sensors.
 
-- UI elements show the status of the airflow measurements, ensuring that users can track the state of the test.
+-Scalable experiment logging for parameter optimization.
 
-Main Page: <br/>
-<img src="https://github.com/IALT1234/Probe-Testing-Page/blob/main/Main%20Page.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-Graph and Data Analytics: <br/>
-<img src="https://github.com/IALT1234/Probe-Testing-Page/blob/main/Data%20Collection%20and%20analitycs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+-The resulting workflows were used in ongoing LPBF chamber optimization and validation studies.
 
-2. Backend (app.py)
 
-   
-Server Role:
+# Notes
 
-- Written in Python using Flask, the backend manages data collection from the airflow sensors and serves it to the frontend.
+-Features shown here represent my authored components only for portfolio use.
+-Modules, datasets, and configurations are withheld under institutional research agreements.
+-The full project integrates with embedded controllers and a distributed data pipeline.
 
-- It provides RESTful endpoints to send sensor readings to the JavaScript running in the browser.
+#Notes
 
-Data Analysis & Export:
-
-- The Python backend processes and stores the data.
-
-- It allows users to download collected data in a structured format (CSV or JSON) for further study.
-</p>
+-Features shown here represent my authored components only for portfolio use.
+-Modules, datasets, and configurations are withheld under institutional research agreements.
+-The full project integrates with embedded controllers and a distributed data pipeline.
